@@ -8,7 +8,7 @@ const blogRoutes = require("./routes/blogRoutes");
 const app = express();
 //connect to database
 const dbURI =
-  "mongodb+srv://juliane:nodejspractice2024@nodejspractice.ahlndpm.mongodb.net/nodejs-practice?retryWrites=true&w=majority&appName=nodejspractice";
+  "mongodb+srv://username:password@nodejspractice.ahlndpm.mongodb.net/nodejs-practice?retryWrites=true&w=majority&appName=nodejspractice";
 mongoose
   .connect(dbURI)
   .then((result) => {
